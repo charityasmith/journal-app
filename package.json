@@ -1,0 +1,27 @@
+{
+  "name": "week3",
+  "version": "1.0.0",
+  "description": "Serving our website to a browser and extend our website's capabilities with an API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "Buffer": "^0.0.0",
+    "crypto-browserify": "^3.12.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "process": "^0.11.10",
+    "require": "npm:Require@^1.1.2",
+    "Require": "^1.1.2",
+    "stream-browserify": "^3.0.0",
+    "window": "^4.2.7"
+  },
+  "browser": {
+    "crypto": "crypto-browserify",
+    "stream": "stream-browserify"
+  }
+}
